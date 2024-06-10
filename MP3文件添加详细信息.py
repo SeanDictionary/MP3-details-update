@@ -9,7 +9,7 @@ from threading import Thread
 
 # 设置你的MusicBrainz API用户名和密码
 musicbrainzngs.set_useragent("0", "0", "0")
-musicbrainzngs.auth("SeanDictionary", "qd7amjoExjCPTjvpgoYsN-rYfAyTiJtZ")
+musicbrainzngs.auth("API", "ApI key")
 
 class MetadataUpdater:
     def __init__(self):
